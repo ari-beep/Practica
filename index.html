@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio personal</title>
+    <link rel="stylesheet" href="/practicas/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
     <header>
@@ -11,19 +16,17 @@
       <p>Cada día un poco mejor, sin prisa pero sin pausa</p>
     </header>
     <nav>
-      <ul>
-        <li><a href="#sobremi">Sobre mi</a></li>
-        <li><a href="#formacion">Formación</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
+       <a href="#sobremi">Sobre mí</a>
+       <a href="#formacion">Formación</a>
+       <a href="#habilidades">Habilidades</a>
+       <a href="#proyectos">Proyectos</a>
+       <a href="#contacto">Contacto</a>
     </nav>
     <main>
-      <section id="sobremi">
+      <section id="sobremi" class="sobremi">
         <h2>Sobre mí</h2>
-        <img
-          src="/practica1/img-portafolio.jpeg"
+        <img class="img"
+          src="/practicas/img/img-portafolio.jpeg"
           alt="foto"
           height="250px"
           width="200px"
@@ -39,7 +42,7 @@
       </section>
       <section id="formacion">
         <h2>Formación</h2>
-        <ul>
+        <ul class="check">
             <li>Técnico Básico en Tecnología de la Información</li>
           <li>
           Técnico Auxiliar en Tecnología de la Información
@@ -47,13 +50,14 @@
           <li>
             Curso de Jefes de Equipo - Scouts
           </li>
+          <li>
           Modelo Destacada - Euromodels
           </li>
         </ul>
       </section>
       <section id="habilidades">
         <h2>Habilidades</h2>
-        <ul>
+        <ul class="check">
                 <li>HTML y CSS básico</li>
                 <li>Programación básica en C++ y Python</li>
                 <li>Resolución de problemas</li>
@@ -65,9 +69,9 @@
         </ul>
       </section>
 
-      <section id="proyectos">
+      <section id="proyectos" class="contenedor">
         <h2>Proyectos</h2>
-        <article>
+      <article>
 
           <h3>Invitacion web</h3>
           <p>Desarrollo de una invitación digital optimizada para móviles, que funciona bien en pantallas pequeñas y medianas, pero no en pantalla completa de escritorio.</p>
@@ -75,7 +79,7 @@
             Ver proyecto
           </a>
         </article>
-        <article>
+        <article >
           <h3>Base de datos</h3>
           <p>Sistema web para gestión de clientes y ventas, con buscador, edición de datos, historial de compras y generación de reportes en PDF.</p>
           <a href="https://proyectoventas-a01j.onrender.com/" target="_blank">
@@ -83,12 +87,14 @@
           </a>
           <p>*Requiere usuario y cotraseña</p>
         </article>
-        <article>
+        <article >
             <h3>Portafolio Personal</h3>
             <p>Diseño y desarrollo de un portafolio web personal básico utilizando HTML para mostrar mis proyectos y habilidades.</p>
             <a href=" https://ari-beep.github.io/Practica/" target="_blank"> 
               Ver proyecto</a>
         </article>
+      </section>
+
       <section id="contacto">
         <h2>Contacto</h2>
         <p>Email: <a href="mailto:arianaemilyv12@gmail.com">arianaemilyv12@gmail.com</a></p>
